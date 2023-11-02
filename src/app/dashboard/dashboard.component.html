@@ -1,7 +1,6 @@
-<h2>Top Heroes</h2>
+<h2>Pod List</h2>
 <div class="heroes-menu">
-  <a *ngFor="let hero of heroes"
-    routerLink="/detail/{{hero.id}}">
-    {{hero.name}}
+  <a *ngFor="let name of podName">
+    {{name}}
   </a>
 </div>
